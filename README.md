@@ -1,1 +1,4 @@
 # NeuralCMS
+
+NeuralCMS is a machine-learning model to compute the gravitational moments and mass of Jupiter given seven parameters setting its interior model. The model is trained on over a million interior model solutions computed with the accurate but computationally demanding concentric Maclaurin spheroid method (CMS; Hubbard 2013 DOI:[10.1088/0004-637X/768/1/43](https://ui.adsabs.harvard.edu/link_gateway/2013ApJ...768...43H/doi:10.1088/0004-637X/768/1/43)). NeuralCMS recives the following interior features as input: protosolar helium abundance (setting the overall planetary abundance) $Y_{\rm proto}$, temperature at 1 bar $T_{\rm 1 bar}$, atmospheric heavy materials (anything heavier than helium) abundance $Z_1$, transition pressure between the inner and the outer envelopes $P_{12}$, dilute core extent $m_{\rm dilute}$, dilute core maximum heavy materials abundance $Z_{\rm dilute}$, and compact core normalize radius $r_{\rm core}$.
+
