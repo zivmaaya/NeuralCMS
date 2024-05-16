@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ## Getting started
 
-Start working with the NeuralCMS in 'NeuralCMS_notebook.ipynb'.
+Start working with the NeuralCMS in `NeuralCMS_notebook.ipynb`.
 
 ## Acknowledgements
 
